@@ -2204,6 +2204,13 @@ input.form-control {
     flex-direction: column;
     display: none;
   }
+  #logo1 {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-left: 20px;
+  justify-content: center;
+}
 }
 
 .header-area .contact-info {
@@ -2245,6 +2252,7 @@ input.form-control {
   height: 90px;
   margin-left: 20px;
 }
+
 
 .auto-container .icon-wrapper {
   border-left: none;
