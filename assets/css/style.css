@@ -2326,11 +2326,11 @@ input.form-control {
 }
 
 .hero-area-bg-2 {
-  background-image: url(../img/slider/slide-2.jpg);
+  background-image: url(../img/slider/slide-3.jpg);
 }
 
 .hero-area-bg-3 {
-  background-image: url(../img/slider/slide-3.jpg);
+  background-image: url(../img/about/slider1.jpg);
 }
 
 .hero-area-bg-4 {
@@ -7472,6 +7472,24 @@ ul.contact-list li i {
     transform: translate(100%, 0);
   }
 }
+
+.nav-link .arrow {
+  display: inline-block;
+  margin-left: 6px;
+  border: solid #2a2a2a;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  margin-bottom: 2px;
+  margin-top: 0px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+/* Rotate arrow when dropdown is open */
+.nav-link:hover .arrow {
+  transform: rotate(-135deg);
+}
+
 /*
 
 
