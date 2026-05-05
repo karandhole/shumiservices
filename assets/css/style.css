@@ -7628,8 +7628,8 @@ ul.contact-list li i {
 .client-track img {
     width: 200px;
     background: #fff;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 0px;
+    border-radius: 2px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: 0.3s ease-in-out;
 }
@@ -7641,7 +7641,7 @@ ul.contact-list li i {
 /* ============================
    MOBILE + TABLET (SLIDER)
 ===============================*/
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .client-track {
         flex-wrap: nowrap;
         gap: 20px;
@@ -7655,19 +7655,19 @@ ul.contact-list li i {
     }
 }
 
-/* Mobile Sliding Animation */
+
 @keyframes slideMobile {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
 }
 
-/* SMALL MOBILE */
+
 @media (max-width: 600px) {
     .client-track img {
         width: 150px;
         padding: 4px;
     }
-}
+} */
 
 
 
